@@ -1,3 +1,40 @@
+body {
+    font-family: Roboto;
+}
+
 .main-container {
     background: url(../images/main_body.jpg) no-repeat center;
+    height: 900px;
+    /* background: #DADEDF; */
+}
+
+
+.navbar-brand {
+    border: 1px solid #333333;
+    height: 43px;
+    width: 43px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand:hover {
+    opacity: .6;
+}
+
+.navbar-body {
+    background: #DADEDF !important;
+}
+
+.hot {
+    width: 31px;
+    margin-bottom: 2px;
+}
+
+.lot {
+    width: 31px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0;
 }
