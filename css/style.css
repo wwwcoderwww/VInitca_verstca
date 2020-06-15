@@ -1,11 +1,14 @@
 body {
     font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 .main-container {
     background: url(../images/main_body.jpg) no-repeat center;
     height: 900px;
-    /* background: #DADEDF; */
 }
 
 
@@ -37,4 +40,25 @@ body {
 .navbar-nav {
     margin-left: auto;
     margin-right: 0;
+}
+
+.dropdown-toggle::after {
+    display: none;
+  }
+  
+.dropdown {
+    margin-left: 24px;
+}
+
+.nav-item a {
+   color: rgb(51, 51, 51, 1) !important;
+   opacity: 1;
+}
+
+.nav-item:hover a{
+    opacity: .6;
+}
+
+.nav-log-in {
+    padding-right: 12px;
 }
