@@ -4,6 +4,7 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
+    color: #333333;
 }
 
 .main-container {
@@ -61,4 +62,38 @@ body {
 
 .nav-log-in {
     padding-right: 12px;
+}
+
+.title-main-page {
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    margin-top: 115px;
+}
+
+.title-form-main {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 35px;
+    border-bottom: 1px solid #CED4DA;
+    padding-bottom: 17px;
+}
+
+.wrape-all-form {
+    background: #FFFFFF;
+    opacity: 0.9;
+    max-width: 537px;
+    margin-top: 30px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.main-form-control {
+    margin-top: 17px;
+}
+
+.main-form-control::placeholder {
+    opacity: 1;
+    color: #333333;
 }
