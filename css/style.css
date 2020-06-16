@@ -118,5 +118,76 @@ body {
 }
 
 .forgod-pass-form {
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #333333;
+    margin-bottom: 36px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer {
+    background: #DADEDF;
+    min-height: 55px;
+}
+
+.row-footer {
+    min-height: 55px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.right-footer a{
+    color: #026EB5;
+    padding-right: 35px;
+}
+
+@media (max-width: 600px) {
+    .right-footer a{
+        padding-right: 15px;
+    }
     
+    .right-footer {
+        margin-top: 10px;
+    }
+
+    footer {
+        min-height: 75px;
+    }
+
+    .row-footer {
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .title-main-page {
+        font-size: 40px;
+        line-height: 44px;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .wrape-all-form {
+        max-width: 537px;
+        margin-top: 30px;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+
+    .dropdown {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 360px) {
+    .right-footer a{
+        padding-right: 7px;
+    }
 }
