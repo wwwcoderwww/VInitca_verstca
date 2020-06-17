@@ -399,6 +399,11 @@ select {
     color: #026EB5;
 }
 
+.button-favorite-checked {
+    background: url(../images/svg/star_check.svg) no-repeat 0 9px;
+
+}
+
 .button-detail {
     background: #026EB5;
     border-radius: 2px;
@@ -427,3 +432,13 @@ select {
     position: absolute;
     right: -26px;
 }
+
+.catalog-body {
+    max-height: 720px;
+    overflow-y: scroll;
+}
+
+.wrape-item-category {
+    margin-bottom: 26px;
+}
+
