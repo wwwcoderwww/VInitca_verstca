@@ -357,3 +357,36 @@ select {
     height: 100%;
     padding: 3px;
 }
+
+.item-body-title {
+    font-size: 20px;
+    line-height: 155.4%;
+    color: #343A40;
+}
+
+.item-body-subtitle {
+    font-size: 14px;
+    line-height: 155.4%;
+    color: #A6A6A6;
+    font-style: normal;
+    font-weight: 200;
+    margin-top: -5px;
+}
+
+.item-body-text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 155.4%;
+    color: #343A40;
+    margin-top: 16px;
+    margin-right: 50px;
+}
+
+.item-body {
+    padding-top: 30px;
+    padding-left: 36px;
+}
+
+.wrap-img-item-body {
+    margin-right: -50px;
+}
