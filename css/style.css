@@ -442,3 +442,29 @@ select {
     margin-bottom: 26px;
 }
 
+@media(max-width: 1300px) {
+    .wrap-img-item-body {
+        margin-right: 0;
+    }
+
+    .time-item {
+        right: 64px;
+        top: -10px;
+    }
+
+    .wrap-img-item-body img {
+        width: 100%;
+        padding-bottom: 18px;
+    }
+}
+
+@media(max-width: 575px) {
+    .wrap-img-item-body img {
+        padding-right: 34px;
+    }
+
+    .time-item {
+        right: 49px;
+        top: -10px;
+    }
+}
