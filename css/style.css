@@ -468,3 +468,7 @@ select {
         top: -10px;
     }
 }
+
+.catalog-body::-webkit-scrollbar{
+    width: 0;
+    }
