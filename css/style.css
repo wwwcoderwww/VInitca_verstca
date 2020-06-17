@@ -144,13 +144,13 @@ footer {
     padding-right: 23px;
 }
 
-.right-footer a{
+.right-footer a {
     color: #026EB5;
     padding-right: 35px;
 }
 
 @media (max-width: 600px) {
-    .right-footer a{
+    .right-footer a {
         padding-right: 15px;
     }
     
@@ -205,8 +205,8 @@ footer {
     min-width: 40px;
 }
 
-.dropdown-dashbord {
-    margin-left: 14px;
+.nav-item-help-catalog {
+    margin-right: -11px;
 }
 
 .nav-item-notisce {
@@ -214,5 +214,104 @@ footer {
 }
 
 .notice-badge {
-    
+    background: #F44848;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    top: 7px;
+    left: 17px;
+    color: white;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    padding-top: 1px;
+}
+
+.catalog-container {
+    background: white;
+}
+
+h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+    padding-left: 16px;
+    margin-top: 42px;
+}
+
+.caralog-select-sort {
+    width: 169px;
+}
+
+.beforeSelect {
+    position: relative;
+    display: inline-block;
+    width: 169px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-left: 16px;
+    margin-right: 10px;
+}
+  
+.beforeSelect:after {
+    content: "";
+    padding: 0 8px;
+    font-size: 22px;
+    position: absolute;
+    right: 10px;
+    top: 1px;
+    z-index: 1;
+    text-align: center;
+    width: 10%;
+    height: 100%;
+    pointer-events: none;
+    box-sizing: border-box;
+    background: url(../images/svg/arrow.svg) no-repeat center;
+}
+
+select {
+    -o-appearance: none;
+    -ms-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.button-sort {
+    background: #FFFFFF;
+    border: 1px solid #CED4DA;
+    box-sizing: border-box;
+    border-radius: 28px;
+    margin-right: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 28px;
+    padding-right: 28px;
+    color: #333333;
+}
+
+.button-sort-active {
+    background: #CED4DA;
+    border: 1px solid #CED4DA;
+    box-sizing: border-box;
+    border-radius: 28px;
+}
+
+.button-sort-link {
+    font-size: 14px;
+    line-height: 155.4%;
+    color: #CED4DA;
+    font-style: normal;
+    font-weight: normal;
+}
+.row-sort {
+    margin-bottom: 14px;
+    margin-top: 22px;
 }
