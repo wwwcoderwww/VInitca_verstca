@@ -390,3 +390,40 @@ select {
 .wrap-img-item-body {
     margin-right: -50px;
 }
+
+.button-favorite {
+    background: url(../images/svg/star.svg) no-repeat 0 9px;
+    padding-left: 22px;
+    font-size: 14px;
+    line-height: 155.4%;
+    color: #026EB5;
+}
+
+.button-detail {
+    background: #026EB5;
+    border-radius: 2px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    width: 82px;
+    height: 39px;
+    margin-right: 8px;
+}
+
+.time-item {
+    background: url(../images/svg/time.svg) no-repeat 6px 6px, #343A40;
+    border-radius: 3px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 158.26%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    width: 74px;
+    height: 27px;
+    padding-left: 27px;
+    position: absolute;
+    right: -26px;
+}
