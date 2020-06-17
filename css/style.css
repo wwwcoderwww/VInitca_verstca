@@ -313,8 +313,47 @@ select {
     font-style: normal;
     font-weight: normal;
 }
+
 .row-sort {
     margin-top: 22px;
     margin-left: 4px;
 }
 
+.row-item-title-block {
+    background: #EFEFEF;
+    border-radius: 0px;
+    min-height: 48px;
+    position: relative;
+}
+
+.img-play {
+    width: 5px;
+    height: 6px;
+    margin-left: 5px;
+}
+
+.play-title-block {
+    background: #484848;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+}
+
+.text-title-item {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.new-title-item {
+    font-size: 12px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #247E0E;
+    position: absolute;
+    right: 30px;
+    height: 100%;
+    padding: 3px;
+}
