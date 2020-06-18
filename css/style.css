@@ -680,8 +680,18 @@ select {
     color: #343A40;
     margin-top: 39px;
 }
+
 .item-table {
     margin-top: 22px;
+    padding-left: .75rem;
+    padding-right: 40px;
+    /* padding-right: 13px; */
+}
+
+@media(max-width: 1370px) {
+    .item-table {
+        padding-right: 13px;
+    }
 }
 
 .item-table-row {
