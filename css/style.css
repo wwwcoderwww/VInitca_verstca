@@ -668,3 +668,58 @@ select {
     cursor: pointer;
 }
 
+@media(max-width: 1300px) {
+    
+}
+
+.item-detail {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 155.4%;
+    color: #343A40;
+    margin-top: 39px;
+}
+.item-table {
+    margin-top: 22px;
+}
+
+.item-table-row {
+    padding-right: 4px;
+    min-height: 44px;
+    background: rgba(239, 239, 239, 0.3);
+    margin: 0;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.item-table-row .text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 155.4%;
+    color: #343A40;
+}
+
+.item-table-row .digit {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 155.4%;
+    color: #343A40;
+}
+
+.item-table-row .hint {
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 155.4%;
+    color: #9e9fa0;
+}
+
+.item-table-row .wrape {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.item-table-gray {
+    background: rgb(239, 239, 239);
+}
