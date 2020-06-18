@@ -1,3 +1,6 @@
+
+
+
 var $slider = $('.slider');
 
 if ($slider.length) {

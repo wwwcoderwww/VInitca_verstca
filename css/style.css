@@ -553,7 +553,7 @@ select {
     margin-top: 4px;
 }
 
-.slick-arrow {
+/* .slick-arrow {
     position: absolute;
     top: 50%;
     z-index: 1;
@@ -613,4 +613,4 @@ height: 100vh;
     color: #fff;
     mix-blend-mode: difference;
     pointer-events: none;
-}
+} */
