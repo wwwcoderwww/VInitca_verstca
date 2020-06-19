@@ -758,3 +758,63 @@ select {
 .item-table-gray {
     background: rgb(239, 239, 239);
 }
+
+.auction-head .views{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 155.4%;
+    color: #A6A6A6;
+    background: url(../images/svg/user.svg) no-repeat 0px 4px;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+.auction-head .print{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 155.4%;
+    color: #026EB5;
+    background: url(../images/svg/print.svg) no-repeat 0px 4px;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+.auction-head .save {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 155.4%;
+    color: #026EB5;
+    background: url(../images/svg/star.svg) no-repeat 0px 4px;
+    padding-left: 20px;
+}
+
+.auction-head {
+    margin-top: 117px;
+}
+
+.auction-widget {
+    background: #EFEFEF;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 19px;
+}
+
+.auction-widget-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 155.4%;
+    text-align: center;
+    color: #A6A6A6;
+}
+
+.auction-widget-max {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #343A40;
+}
