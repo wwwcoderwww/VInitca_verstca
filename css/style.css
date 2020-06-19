@@ -818,3 +818,46 @@ select {
     text-align: center;
     color: #343A40;
 }
+
+.auction-widget-input:before {
+    content: '$';
+    position: absolute;
+    top: 10px;
+    left: 16px;
+}
+
+.auction-widget-input {
+    position: relative;
+    background: #FFFFFF;
+    border: 1px solid #CED4DA;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+.auction-widget-input .count {
+    margin-left: 16px;
+    margin-right: 34px;
+    border: 2px solid white;
+}
+
+.auction-widget-input .plus {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    border-radius: 0px 3px 0px 0px;
+    height: 16px;
+    width: 37px;
+    background: url(../images/svg/arrow_auction.svg) no-repeat center center, #E2E2E2;
+}
+
+.auction-widget-input .minus {
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+    border-radius: 0px 0px 3px 0px;
+    height: 16px;
+    width: 37px;
+    background: url(../images/svg/arrow_auction_minus.svg) no-repeat center center, #E2E2E2;
+
+}
