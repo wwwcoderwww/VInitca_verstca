@@ -1075,3 +1075,38 @@ select {
 .bidd-time {
     border-right: 1px solid #CED4DA;
 }
+
+.bidd-success {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 155.4%;
+    color: #16931B;
+}
+
+.bidd-reserve {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 155.4%;
+    color: #FF5252;
+}
+
+.bidd-info {
+    font-weight: bold;
+    color: #16931B;
+}
+
+.bidd-increment {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 155.4%;
+    color: #343A40;
+}
+
+.bidd-detail {
+    padding-left: 26px;
+    padding-right: 26px;
+}
+
+.bidd-count {
+    border-left: 1px solid #CED4DA;
+}
