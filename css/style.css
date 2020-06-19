@@ -790,6 +790,7 @@ select {
 
 .auction-head {
     margin-top: 117px;
+    margin-right: -44px;
 }
 
 .auction-widget {
@@ -798,7 +799,8 @@ select {
     padding-right: 65px;
     padding-top: 25px;
     padding-bottom: 25px;
-    margin-top: 19px;
+    margin-top: 21px;
+    width: 120%;
 }
 
 .auction-widget-title {
@@ -833,6 +835,9 @@ select {
     box-sizing: border-box;
     border-radius: 4px;
     padding: 7px;
+    margin-top: 3px;
+    width: 199px;
+    margin-bottom: 7px;
 }
 
 .auction-widget-input .count {
@@ -860,4 +865,64 @@ select {
     width: 37px;
     background: url(../images/svg/arrow_auction_minus.svg) no-repeat center center, #E2E2E2;
 
+}
+
+.button-auction {
+    width: 199px;
+    height: 39px;
+    background: #026EB5;
+    border-radius: 2px;
+}
+
+.auction-footer {
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    box-sizing: border-box;
+    width: 120%;
+}
+
+.auction-footer-end-view {
+    min-width: 94px;
+    padding-right: 6px;
+    position: inherit;
+}
+
+.auction-footer-end-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 155.4%;
+    color: #343A40;
+    padding-top: 2px;
+}
+
+.auction-footer-end {
+    margin-right: 16px;
+    margin-left: 16px;
+    padding-top: 20px;
+    padding-bottom: 27px;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.auction-footer-times-time {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.auction-footer-times {
+    margin-right: 16px;
+    margin-left: 16px;
+    padding-top: 20px;
+    padding-bottom: 27px;
+}
+
+.auction-footer-times-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 155.4%;
+    color: #343A40;   
 }
