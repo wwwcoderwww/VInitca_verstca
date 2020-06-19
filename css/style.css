@@ -1127,3 +1127,75 @@ select {
     font-size: 23px;
     cursor: pointer;
 }
+
+
+
+
+
+@media(max-width: 1217px) {
+    .bidd-count {
+        margin-top: 40px;
+
+    }
+}
+
+@media(max-width: 900px) {
+    .bidd-count, .bidd-detail {
+        width: 50%;
+        /* border: 0; */
+        margin-top: 40px;
+    }
+
+    .bidd-adress {
+        padding-left: 26px;
+    }
+}
+
+@media(max-width: 760px) {
+    .bidd-count, .bidd-detail, .bidd-time, .bidd-adress {
+        width: 50%;
+        border: 0;
+        margin-top: 40px;
+    }
+
+    .bidd-adress {
+        padding-left: 26px;
+    }
+
+    .asset-image {
+        width: 70%;
+    }
+}
+
+@media(max-width: 560px) {
+    .bidd-count, .bidd-detail, .bidd-time, .bidd-adress {
+        width: 90%;
+        border: 0;
+        margin-top: 40px;
+    }
+
+    .bidd-adress {
+        padding-left: 26px;
+    }
+
+    .asset-image {
+        width: 90%;
+    }
+}
+
+
+
+/* @media(max-width: 742px) {
+    .bidd-time, .asset-image , .bidd-adress {
+        width: 33%;
+        border: 0;
+        
+    }
+
+    .bidd-count, .bidd-detail {
+        width: 50%;
+        margin-top: 40px;
+        border: 0;
+
+    }
+} */
