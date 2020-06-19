@@ -1325,6 +1325,10 @@ select {
     width: 100%;
 }
 
+.body-form .inner-form {
+    width: 100%;
+}
+
 .form-input-2 {
     margin-top: 40px;
 }
@@ -1414,4 +1418,8 @@ select {
 #phone-1, #phone-2 {
     margin-left: 30px;
     width: calc(100% - 30px);
+}
+
+.form-button-general {
+    margin-top: 65px;
 }

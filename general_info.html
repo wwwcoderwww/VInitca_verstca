@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-body">
+        <a class="navbar-brand d-flex flex-column" href="#">
+            <img class="hot" src="./images/hot.png" alt="hot">
+            <img class="lot" src="./images/lot.png" alt="lot">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+            <li class="nav-item nav-item-notisce position-relative">
+                <a class="nav-link" href="#"><img src="./images/svg/notice.svg"><span class="sr-only">(current)</span></a>
+                <div class="notice-badge position-absolute">4</div>
+            </li>
+            <li class="nav-item nav-item-help-catalog">
+                <a class="nav-link pr-0" href="#">Help <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown dropdown-dashbord">
+                <div class="d-flex">
+                    <a class="nav-link dropdown-toggle pr-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        My Dashboard
+                    <img src="./images/svg/arrow.svg">
+                    </a> 
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Preferences</a>
+                        <a class="dropdown-item" href="#">Saved Assets</a>
+                        <a class="dropdown-item" href="#">Bidding</a>
+                        <a class="dropdown-item" href="#">Offers</a>
+                        <a class="dropdown-item" href="#">Purchase Profiles</a>
+                        <a class="dropdown-item" href="#">Post Auction</a>
+                        <a class="dropdown-item" href="#">Account Information</a>
+                        <a class="dropdown-item" href="#">Log Out</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown ml-2 ml-lg-4">
+                <div class="d-flex">
+                    <img class="img-world" src="./images/svg/world.svg" alt="lang">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Eng
+                    <img src="./images/svg/arrow.svg">
+                    </a> 
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Rus</a>
+                        <a class="dropdown-item" href="#">Fr</a>
+                    </div>
+                </div>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="catalog-container">
+        <div class="container-fluid">
+            <div class="row item-breadcrumbs-row">
+                <div class="item-breadcrumb"><a href="">Lots</a></div>
+                <div class="item-breadcrumb-last"><a href="">Some Another Title</a></div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-10">
+                    <div class="row wrape-page">
+                        <div class="col-12 col-md-4">
+                            <div class="sidebar pl-3">
+                                <a href=""><div class="general-info">General Information</div></a>
+                                <a href=""><div class="docum">Documents</div></a>
+                                <a href=""><div class="phone sidebar-active">Phone Number</div></a>
+                                <a href=""><div class="email">Email</div></a>
+                                <a href=""><div class="pass">Password</div></a>
+                            </div>
+                        </div>
+                       
+                        <div class="col-12 col-md-8">
+                            <form action=""> 
+                                <div class="title-page">General Information</div>
+                                <div class="body-form d-flex flex-column justify-content-center align-items-center">
+                                    <div class="inner-form"> 
+                                        <div class="d-flex flex-column phone-1">
+                                            <label for="title">Title</label>
+                                            <input type="text" name="" id="title" class="form-input">
+                                        </div>
+                                        <div class="d-flex flex-column form-input-2 phone-2">
+                                            <label for="name">First Name</label>
+                                            <input type="text" name="" id="name" class="form-input">
+                                        </div>
+                                        <div class="d-flex flex-column form-input-2 phone-2">
+                                            <label for="surname">Last Name</label>
+                                            <input type="text" name="" id="surname" class="form-input">
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="title-page mt-5">Phone Number</div>
+                            <div class="body-form d-flex flex-column justify-content-center align-items-center">
+                                <div class="inner-form"> 
+                                    <div class="d-flex flex-column phone-1">
+                                        <label for="phone-1">Phone_1</label>
+                                        <input type="tel" name="" id="phone-1" class="form-input">
+                                    </div>
+                                    <div class="d-flex flex-column form-input-2 phone-2">
+                                        <label for="phone-2">Phone_2</label>
+                                        <input type="tel" name="" id="phone-2" class="form-input">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="title-page mt-5">Email</div>
+                            <div class="body-form d-flex flex-column justify-content-center align-items-center">
+                                <div class="inner-form"> 
+                                    <div class="d-flex flex-column">
+                                        <label for="email">Email</label>
+                                        <input type="email" name="" id="email" class="form-input">
+                                    </div>
+                                    <div class="d-flex flex-column form-input-2">
+                                        <label for="new-email">New email</label>
+                                        <input type="email" name="" id="new-email" class="form-input">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="title-page mt-5">Password</div>
+                            <div class="body-form d-flex flex-column justify-content-center align-items-center">
+                                <div class="inner-form"> 
+                                    <div class="d-flex flex-column">
+                                        <label for="old-pass">Old password</label>
+                                        <input type="password" name="" id="old-pas" class="form-input">
+                                    </div>
+                                    <div class="d-flex flex-column form-input-2">
+                                        <label for="new-pas">New password</label>
+                                        <input type="password" name="" id="new-pass" class="form-input">
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <button class="form-button form-button-general">Save</button>
+                        </form>
+
+                        </div> 
+                    </div>
+                    
+                </div>
+            </div>
+            
+   
+        </div>
+    </main>
+    <footer class="bidding-footer">
+        <div class="container-fluid w-100">
+            <div class="row d-flex justify-content-between align-items-center row-footer">
+                <div>
+                    Copyright © 2019 NEW_APP_COMPANY_NAME. All rights reserved.
+                </div>
+                <div class="right-footer">
+                    <a href="">Contact us</a>
+                    <a href="">Terms of use</a>
+                    <a href="">Privacy policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
