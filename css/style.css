@@ -1239,8 +1239,58 @@ select {
     border: 1px solid #EFEFEF;
     box-sizing: border-box;
     border-radius: 4px;
+    margin-top: 50px;
 }
 
 .bidding-footer {
     margin-top: 130px;
+}
+
+.sidebar * {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    text-decoration: none;
+}
+
+.sidebar *:hover {
+    opacity: .6;
+    text-decoration: none
+}
+
+.general-info {
+    background: url(../images/svg/user_info.svg) no-repeat 3px center;
+    padding-left: 38px;
+}
+
+.docum {
+    background: url(../images/svg/doc.svg) no-repeat 3px center;
+    padding-left: 38px;
+}
+
+.phone {
+    background: url(../images/svg/phone.svg) no-repeat 3px center;
+    padding-left: 38px;
+}
+
+.email {
+    background: url(../images/svg/email.svg) no-repeat 3px center;
+    padding-left: 38px;
+}
+
+.pass{
+    background: url(../images/svg/pass.svg) no-repeat 3px center;
+    padding-left: 38px;
+}
+
+.sidebar-active {
+    font-weight: bold;
+}
+
+.sidebar {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
