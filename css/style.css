@@ -1009,6 +1009,7 @@ select {
     padding: 18px;
     margin: 0;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .asset-image {
@@ -1105,8 +1106,24 @@ select {
 .bidd-detail {
     padding-left: 26px;
     padding-right: 26px;
+    width: 24%;
 }
 
 .bidd-count {
+    padding-left: 26px;
+    padding-right: 26px;
     border-left: 1px solid #CED4DA;
+}
+
+.block-asset::after {
+    content: '+';
+    width: 32px;
+    height: 12px;
+    position: absolute;
+    top: 25px;
+    right: 3px;
+    color: gray;
+    transform: rotate(45deg);
+    font-size: 23px;
+    cursor: pointer;
 }
